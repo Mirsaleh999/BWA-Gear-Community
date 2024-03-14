@@ -140,7 +140,6 @@ nav a {
 }
 
 .main2 {
-
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -150,7 +149,6 @@ nav a {
 .texts2,
 .texts3,
 .texts4 {
-  
   font-family: "Poppins", sans-serif;
   text-align: center;
   padding: 20px;
@@ -164,13 +162,15 @@ nav a {
   color: #0086d6;
 }
 .texts3 h3 {
-  color: #2BA093;
-  
+  color: #2ba093;
 }
 .texts4 h3 {
-  color: #FF3366;
+  color: #ff3366;
 }
 
+.texts1 p {
+  margin-left: 10px;
+}
 
 @media only screen and (max-width: 768px) {
   .main2 {
@@ -187,5 +187,62 @@ nav a {
   .texts2 p,
   .texts3 p,
   .texts4 p {
-    color: #475E69;  }
+    color: #475e69;
+  }
+}
+
+
+
+.section3{
+
+  font-family: "Poppins", sans-serif;
+}
+.container3 {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.main-texts3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.main-texts3 h2{
+font-size: 35px;
+color: #333E44;
+
+}
+
+.main-texts3 p{
+  font-size: 20px;
+  color: #475E69;
+  }
+
+
+
+.layout1,
+.layout2,
+.layout3 {
+  display: flex;
+  margin: 10px;
+  margin-top: 40px;
+  width: 23%;
+}
+
+.img1,
+.img2,
+.img3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.img1 img,
+.img2 img,
+.img3 img {
+  width: 100%;
 }
